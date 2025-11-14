@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+
+# Django
+db.sqlite3
+/media/
+staticfiles/
+
+# Environment / secrets
+.env
+.env.*
+*.env
+
+# Node / frontend
+node_modules/
+npm-debug.log*
+yarn-error.log*
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+
+# Archives / large binaries
+*.zip
+*.tar
+*.gz
+*.7z
+*.rar
+*.mp4
+*.mov
+*.iso
