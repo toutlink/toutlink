@@ -1,211 +1,314 @@
-🔐 toutlink – Offensive Security | Python | AppSec | Red Teaming | Exploit Development | Mobile Security 🌍
+# 🔐 toutlink | Offensive Security Portfolio
 
-This repository is my complete security engineering, offensive security, and red team portfolio.
-Everything here is designed to show how I think, how I build, how I break and defend systems.
+> **Building. Breaking. Defending.**  
+> A comprehensive security engineering portfolio showcasing offensive security, red teaming, and exploit development capabilities.
 
-The structure reflects a real-world offensive security workflow:
-recon → exploitation → post-exploitation → persistence → cloud → mobile → detection → automation.
+![Security](https://img.shields.io/badge/Security-Offensive-red)
+![Python](https://img.shields.io/badge/Python-3.11+-blue)
+![Platform](https://img.shields.io/badge/Platform-Web%20%7C%20Cloud%20%7C%20Mobile%20%7C%20Network-lightgrey)
+![Status](https://img.shields.io/badge/Status-Active%20Development-brightgreen)
+![OSCP](https://img.shields.io/badge/OSCP-In%20Progress-orange)
+![HTB](https://img.shields.io/badge/HackTheBox-Active_Learner-blue)
 
+---
 
-🧱 Repository Structure
+## 🎯 Portfolio Overview
 
-docker/         → Pentest containers, vulnerable apps, monitoring stack
-projects/       → Custom scanners, exploit dev, red team tools, research
-writeups/       → Web, infra, mobile, and red team reports
-certifications/ → Working toward OSCP
-labs/           → Home lab (Windows domain, cloud, detection lab, CTFs)
-tools/          → Recon, post-exploitation, forensics, automation
-src/            → Portfolio website (Django) to present projects/writeups
-docs/           → Methodologies, ATT&CK-style techniques, cheatsheets, roadmap
-scripts/        → Setup, automation, monitoring, and maintenance scripts
-config/         → Burp, Nmap, Metasploit, and tool configs
-tests/          → Unit, integration, penetration, and performance tests
-requirements/   → Python dependencies per area (tools, research, etc.)
+This repository represents my journey to elite offensive security mastery. Every tool, writeup, and lab reflects real-world security workflows from reconnaissance to advanced persistence.
 
-🎯 Focus Areas
+**Core Philosophy:** *Understand systems by building them, then break them to defend better.*
 
-This portfolio showcases my capabilities across:
+---
 
-Web & API Security
+## 🏗️ Repository Structure
 
-XSS, SQLi, SSRF, Injection Chains
+| Directory | Purpose | Status |
+|-----------|---------|---------|
+| [`docker/`](./docker/) | Pentest containers & vulnerable apps | 🟢 Active |
+| [`projects/`](./projects/) | Custom tools & security research | 🟢 Active |
+| [`writeups/`](./writeups/) | Penetration test reports | 🟡 In Progress |
+| [`labs/`](./labs/) | Home lab environments | 🟢 Active |
+| [`tools/`](./tools/) | Recon & exploitation utilities | 🟢 Active |
+| [`src/`](./src/) | Portfolio website (Django) | 🟡 Building |
+| [`docs/`](./docs/) | Methodologies & techniques | 🟢 Active |
+| [`certifications/`](./certifications/) | OSCP Preparation | 🟡 Studying |
 
-OAuth, SSO, JWT, MFA bypass
+---
 
-Logic abuse and complex multi-step workflows
+## 🔥 Featured Projects
 
-API BOLA, GraphQL, WebSockets
+### 🛠️ Custom Security Tools
+- **[Custom Vulnerability Scanner](./projects/custom_scanner/)** - Modular Python-based scanner with plugin architecture
+- **Red Team C2 Framework** - Custom command and control infrastructure
+- **Exploit Development Kit** - Buffer overflow, ROP chains, and modern exploitation
 
-Cloud Security
+### 🎯 Attack Simulations
+- **Windows AD Domain Lab** - Full enterprise environment for red team practice
+- **Cloud Misconfiguration Labs** - AWS, Azure, GCP attack scenarios
+- **Mobile Security Lab** - Android/iOS application testing environment
 
-AWS, Azure, GCP misconfigurations
+### 📊 Detection Engineering
+- **ELK + Wazuh Stack** - Security monitoring and detection lab
+- **Atomic Red Team** - Detection testing and validation
 
-IAM privilege escalation
+---
 
-Serverless exploitation
+## 🎓 Core Competencies
 
-CI/CD & supply chain attacks
+### **Web & API Security**
+```python
+# Advanced vulnerability discovery
+- XSS | SQLi | SSRF | Injection chains
+- OAuth/SSO exploitation | JWT attacks
+- Business logic abuse | API security
+- GraphQL | WebSockets | HTTP/2+ attacks
 
-Red Teaming
-
-Persistence, lateral movement
-
-EDR/AV evasion
-
-C2 frameworks and implants
-
-Adversary simulation workflows
-
-Exploit Development
-
-Binary exploitation
-
-Memory corruption
-
-Web assembly abuse
-
-Modern browser and backend exploitation
-
-Mobile Security (Android & iOS)
-
-APK/IPA reversing
-
-Frida & Objection dynamic analysis
-
-Mobile API exploitation
-
-Certificate pinning bypass
-
-Mobile malware behavior analysis
-
-Detection Engineering
-
-SIEM (ELK / Wazuh / Security Onion)
-
-Log analysis
-
-Atomic Red Team
-
-Detection logic and correlation development
-
-Python Tooling
-
-Custom scanners
-
-Recon automation
-
-Fuzzers
-
-API enumeration tools
-
-Exploit helpers
-
-🧭 Roadmap (Long-Term Curriculum)
-
-My full 300-chapter offensive security roadmap lives here:
-
-📘 docs/roadmap/ROADMAP.md
-
-Covers:
-
-Web, API, Cloud, Mobile
+Cloud & Infrastructure
+# Multi-cloud security assessment
+☁️ AWS IAM privilege escalation
+☁️ Azure service exploitation  
+☁️ GCP metadata abuse
+☁️ Kubernetes & container security
 
 Red Teaming
+# Adversary simulation
+- Persistence mechanisms
+- Lateral movement techniques
+- EDR/AV evasion
+- C2 infrastructure
 
 Exploit Development
+// Modern exploitation
+📟 Binary exploitation
+📟 Memory corruption
+📟 WebAssembly attacks
+📟 Browser security research
 
-AI/LLM security
+📚 Learning Journey
+🎯 Current Focus: OSCP Preparation & Foundations
+Penetration testing methodology
 
-Ultra-elite multi-stage exploitation chains
+Privilege escalation techniques
 
-🔍 Highlighted Directories
-projects/custom_scanner/
+Buffer overflow exploitation
 
-My modular Python vulnerability scanner:
+Network penetration testing
 
-src/core/ – engine, fuzzer, payload generator
+📖 Complete Curriculum: The toutlink Elite Offensive Security Handbook
+I'm systematically progressing through my 300-chapter elite security curriculum:
 
-src/modules/ – SQLi, XSS, SSRF, deserialization, etc.
+📘 The Complete toutlink Elite Offensive Security Handbook | Roadmap 01–300
 
-src/utils/ – HTTP client, report generators
+Progress: 45/300 Chapters (15% Complete)
 
-tests/ – unit tests
+Phase	Chapters	Focus Areas	Status
+1. Foundations	1-50	Web App Security, Reconnaissance	🟢 90%
+2. Core Vulnerabilities	51-100	API Security, Cloud, Mobile	🟡 Next
+3. Advanced Techniques	101-150	Red Teaming, Exploit Dev	⏳ Planned
+4. Elite Mastery	151-300	Zero-day Research, AI Security	⏳ Future
+🏆 Hack The Box Progress
+🎖️ HTB Academy Achievements
+https://academy.hackthebox.com/achievement/badge/93461297-b300-11f0-9254-bea50ffe6cb4
 
-docs/ – scanner design documentation
+Active HTB Academy Student - Systematically building penetration testing skills through structured learning paths and hands-on labs.
 
-tools/recon_suite/
+🔥 Current HTB Learning Tracks
+# Completed Modules & Skills
+✅ Linux Fundamentals
+✅ Network Enumeration with Nmap
+✅ Web Requests & Authentication
+✅ Introduction to Penetration Testing
+🔄 Active Directory Basics
+⏳ Buffer Overflow Exploitation
+⏳ Privilege Escalation Techniques
 
-Standalone recon utilities:
+📊 HTB Machine Progress
+Recent Machine Solves:
 
-subdomain_enum.py
+Starting Point Tier 0-2: Complete
 
-port_scanner.py
+Easy Rated Machines: 8+ machines rooted
 
-web_analyzer.py
+Web Application Challenges: Multiple completed
 
-cloud_enum.py
+Active Directory Labs: In progress
 
-labs/
+Skills Demonstrated Through HTB:
 
-Hands-on attack environments:
+Enumeration Mastery: Thorough network and service discovery
 
-Windows AD domain lab
+Web Application Testing: XSS, SQLi, file upload vulnerabilities
 
-Cloud misconfiguration lab
+Privilege Escalation: Linux and Windows escalation techniques
 
-Detection lab (ELK, Wazuh, Security Onion)
+Methodology Development: Systematic approach to penetration testing
 
-CTF challenges: web, pwn, forensics, mobile
+🎯 HTB Learning Objectives
 
-docs/
+OSCP Alignment: Practice exam-relevant techniques and methodologies
 
-Knowledge base:
+Real-World Simulation: Develop muscle memory for common attack vectors
 
-Methodology
+Tool Proficiency: Master industry-standard penetration testing tools
 
-Techniques (ATT&CK-style)
+Documentation Skills: Improve reporting and evidence collection
 
-Compliance (NIST, ISO 27001, PCI-DSS)
+🏆 OSCP Certification Goal
 
-Cheatsheets
+🎯 Target: Offensive Security Certified Professional
+Status: 🔄 Active Preparation
+Timeline: Q2 2024
+Focus Areas: Penetration Testing, Exploitation, Post-Exploitation
 
-Roadmap
+📚 OSCP Preparation Progress
 
-🚧 Current Implementation Status
+# Current Study Focus
+✅ Penetration Testing Methodology
+✅ Network Enumeration & Scanning
+✅ Web Application Attacks
+✅ Privilege Escalation (Linux/Windows)
+🔄 Buffer Overflow Exploitation
+⏳ Active Directory Attacks
+⏳ Exam Strategy & Time Management
 
-This repo is fully scaffolded and now undergoing live development:
+🛠️ OSCP-Lab Aligned Projects
+Buffer Overflow Practice - Windows & Linux exploitation
 
-Building out real working tools
+Privilege Escalation Scripts - Auto-enumeration tools
 
-Writing deep documentation and methodologies
+Active Directory Lab - Full AD attack environment
 
-Adding exploit labs
+Penetration Test Reports - Real-world methodology practice
 
-Producing detailed writeups with evidence
+📖 Study Materials
+Official PWK Courseware - In progress
 
-Expanding mobile, cloud, and red team sub-projects
+HTB Academy & Machines - Regular practice
 
-You can track progress through commits and the roadmap.
+Proving Grounds Practice - Supplemental practice
+
+Custom Cheatsheets - View Here
+
+🛠️ Technical Stack
+Category	Technologies
+Languages	Python, JavaScript, C, SQL, Assembly
+Security Tools	Burp Suite, Metasploit, Nmap, Wireshark
+Cloud	AWS, Azure, GCP, Kubernetes, Docker
+Platforms	Linux, Windows, Android, iOS
+Defense	ELK Stack, Wazuh, Security Onion, YARA
+📊 Project Status
+Component	Status	Progress
+Custom Scanner	🟢 Active	85%
+Red Team Tools	🟢 Active	70%
+Exploit Development	🟡 In Progress	60%
+OSCP Preparation	🟡 Active Study	65%
+HTB Practice	🟢 Regular	Ongoing
+Documentation	🟢 Active	80%
+
+🚀 Getting Started
+Quick Setup
+
+# Clone repository
+git clone https://github.com/yourusername/toutlink_portfolio.git
+cd toutlink_portfolio
 
 # Optional: virtual environment
 python3 -m venv .venv
 source .venv/bin/activate
 
-# Install dependencies (as they get populated)
+# Install dependencies
 pip install -r requirements/development.txt
 
-Each project contains its own README for usage details.
+Explore Key Components
+
+# Run custom vulnerability scanner
+cd projects/custom_scanner/
+python src/core/scanner.py --help
+
+# Deploy OSCP practice lab
+cd labs/windows_domain/
+docker-compose up -d
+
+# Check security dashboard
+cd src/
+python manage.py runserver
+
+🌐 Connect With Me
+
+| Platform | Link | Focus |
+|----------|------|-------|
+| **🌐 Website** | [www.toutlink.com](https://www.toutlink.com) | Security Tools Distribution • Python Education |
+| **💼 LinkedIn** | [Kossi Agode](https://www.linkedin.com/in/kossi-agode-07831b339/) | Professional Network |
+| **🐦 Twitter** | [@iamtoutlink](https://twitter.com/iamtoutlink) | Security Insights & Tool Releases |
+| **📧 Email** | `iamtoutlink@toutlink.com` | Direct Contact & Opportunities |
+| **📱 Phone** | `612-800-4664` | Urgent Security Matters |
+| **🎯 HTB** | [ToutLink](https://app.hackthebox.com/profile/your-profile-id) | Practical Penetration Testing |
+| **🏆 HTB Academy** | [Achievements](https://academy.hackthebox.com/achievement/badge/93461297-b300-11f0-9254-bea50ffe6cb4) | Structured Security Learning |
+
+---
+
+## 🚀 Future Vision: Security Tools Platform
+
+### 🌐 [www.toutlink.com](https://www.toutlink.com) → **Future Security Tools Hub**
+
+**Current:** French-language Python and digital education platform  
+**Future:** Open-source offensive security tools distribution center
+
+**Planned Tool Distribution:**
+- All portfolio projects available for public download
+- Comprehensive installation guides and documentation
+- Video tutorials and usage demonstrations
+- Community support and contribution system
+- Regular updates and new tool releases
+
+**Available Soon:**
+```bash
+# Tools Coming to toutlink.com
+🔧 Custom Vulnerability Scanner
+🔧 Red Team C2 Framework  
+🔧 Exploit Development Kits
+🔧 Mobile Security Tools
+🔧 API Testing Utilities
+🔧 Cloud Assessment Scripts
+
+Mission: Create an open-source security tools platform where cybersecurity professionals and learners can access, use, and contribute to offensive security utilities.
+
+🛠️ Tool Availability Roadmap
+Tool Category	Status	Website Release
+Custom Vulnerability Scanner	🟢 Active	Q3 2024
+Red Team C2 Framework	🟡 In Progress	Q4 2024
+Exploit Development Kit	🟡 In Progress	Q4 2024
+API Security Testing Suite	⏳ Planned	Q1 2025
+Cloud Security Assessment	⏳ Planned	Q1 2025
+Note: All tools will be freely available on toutlink.com with comprehensive documentation, installation guides, and usage examples.
 
 
-🏅 Certifications
 
-OSCP → In progress
+📚 Documentation
+Methodologies - Testing approaches and frameworks
 
-📬 Contact
+Techniques - ATT&CK-style attack techniques
 
-📱 Phone: 612-800-4664
-📧 Email: iamtoutlink@toutlink.com
+Cheatsheets - OSCP & penetration testing guides
 
-Subject to use:
-Offensive Security / Python | AppSec | Red Teaming | Exploit Development | Mobile Security 🌍
+Roadmap - Complete 300-chapter curriculum
+
+⚠️ Legal & Ethical Notice
+Important: All tools, techniques, and research in this repository are intended for:
+
+Educational purposes
+
+Authorized security testing
+
+Professional development
+
+Security research
+
+❌ Never use for unauthorized testing
+✅ Always obtain proper authorization
+🔒 Follow responsible disclosure practices
+
+📄 License
+This repository is for portfolio purposes. Individual projects may have their own licenses. All tools are provided "as-is" for educational use.
+
 
