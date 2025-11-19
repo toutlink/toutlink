@@ -187,11 +187,6 @@ Expanding mobile, cloud, and red team sub-projects
 
 You can track progress through commits and the roadmap.
 
-🧪 Local Setup
-
-git clone git@github.com:toutlink/toutlink.git
-cd toutlink
-
 # Optional: virtual environment
 python3 -m venv .venv
 source .venv/bin/activate
@@ -205,10 +200,6 @@ Each project contains its own README for usage details.
 🏅 Certifications
 
 OSCP → In progress
-
-OSWE → Planned
-
-OSCE3 → Long-term goal
 
 📬 Contact
 
