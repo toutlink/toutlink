@@ -1,4 +1,4 @@
-🔐 toutlink – Offensive Security | Python | AppSec | Red Teaming | Exploit Development | Mobile Security
+🔐 toutlink – Offensive Security | Python | AppSec | Red Teaming | Exploit Development | Mobile Security 🌍
 
 This repository is my complete security engineering, offensive security, and red team portfolio.
 Everything here is designed to show how I think, how I build, how I break and defend systems.
